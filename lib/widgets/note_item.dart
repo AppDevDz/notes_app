@@ -5,6 +5,8 @@ import 'package:notes_app/views/edit_note_view.dart';
 class NoteItem extends StatelessWidget {
   const NoteItem({super.key});
 
+  // final String title;
+  // final String content;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(

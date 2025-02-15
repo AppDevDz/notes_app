@@ -5,6 +5,8 @@ import 'package:notes_app/widgets/custom_text_field.dart';
 class EditNoteViewBody extends StatelessWidget {
   const EditNoteViewBody({super.key});
 
+  // final String title;
+  // final String content;
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -15,7 +17,7 @@ class EditNoteViewBody extends StatelessWidget {
           CustomAppBar(title: 'Edit Notes', icon: Icons.check),
           SizedBox(height: 50),
           CustomTextField(hintText: 'Title'),
-          SizedBox(height: 50),
+          SizedBox(height: 20),
           CustomTextField(hintText: 'Content', maxLines: 5),
         ],
       ),
